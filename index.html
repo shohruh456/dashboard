@@ -97,13 +97,6 @@
         Индо Сеол
       </button>
 
-      <button id="nav-details" onclick="setActivePage('details')"
-        class="nav-btn relative w-full flex items-center gap-3 px-6 py-3 text-sm font-medium tracking-wide text-left text-white/40 hover:text-white hover:bg-white/5">
-        <svg class="w-4 h-4 shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-          <path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
-        </svg>
-        Детали
-      </button>
     </nav>
   </aside>
 
@@ -121,7 +114,7 @@
           <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
           <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
         </svg>
-        <span id="themeLabel">Светлая тема</span>
+        <span id="themeLabel">поменять рисунок</span>
       </button>
     </header>
 
@@ -227,7 +220,7 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-2 gap-5 pb-6">
+      <div class="grid grid-cols-2 gap-5 pb-6 w-[1920px]">
 
         <div class="animate-fadeUp bg-white/[0.03] border border-white/[0.06] rounded-2xl p-6">
           <h2 class="text-[10px] font-semibold tracking-[0.2em] uppercase text-white/40 mb-5">Топ маршруты</h2>
@@ -255,41 +248,6 @@
           </div>
         </div>
 
-        <div class="animate-fadeUp bg-white/[0.03] border border-white/[0.06] rounded-2xl p-6">
-          <h2 class="text-[10px] font-semibold tracking-[0.2em] uppercase text-white/40 mb-4">Фотогалерея флота</h2>
-          <div class="grid grid-cols-3 gap-2">
-            <div class="photo-card relative rounded-xl overflow-hidden aspect-[4/3] cursor-pointer hover:scale-[1.04] duration-300">
-              <img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=300&q=70" class="w-full h-full object-cover" alt="Грузовик"/>
-              <div class="photo-overlay absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-              <span class="photo-tag absolute bottom-2 left-2 bg-teal-400 text-black text-[9px] font-bold tracking-wide uppercase px-2 py-0.5 rounded">Трасса А1</span>
-            </div>
-            <div class="photo-card relative rounded-xl overflow-hidden aspect-[4/3] cursor-pointer hover:scale-[1.04] duration-300">
-              <img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?w=300&q=70" class="w-full h-full object-cover" alt="Горная дорога"/>
-              <div class="photo-overlay absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-              <span class="photo-tag absolute bottom-2 left-2 bg-teal-400 text-black text-[9px] font-bold tracking-wide uppercase px-2 py-0.5 rounded">Горный путь</span>
-            </div>
-            <div class="photo-card relative rounded-xl overflow-hidden aspect-[4/3] cursor-pointer hover:scale-[1.04] duration-300">
-              <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=300&q=70" class="w-full h-full object-cover" alt="Склад"/>
-              <div class="photo-overlay absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-              <span class="photo-tag absolute bottom-2 left-2 bg-teal-400 text-black text-[9px] font-bold tracking-wide uppercase px-2 py-0.5 rounded">Склад</span>
-            </div>
-            <div class="photo-card relative rounded-xl overflow-hidden aspect-[4/3] cursor-pointer hover:scale-[1.04] duration-300">
-              <img src="https://images.unsplash.com/photo-1611859266238-4b98091d9d9b?w=300&q=70" class="w-full h-full object-cover" alt="Терминал"/>
-              <div class="photo-overlay absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-              <span class="photo-tag absolute bottom-2 left-2 bg-teal-400 text-black text-[9px] font-bold tracking-wide uppercase px-2 py-0.5 rounded">Терминал</span>
-            </div>
-            <div class="photo-card relative rounded-xl overflow-hidden aspect-[4/3] cursor-pointer hover:scale-[1.04] duration-300">
-              <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&q=70" class="w-full h-full object-cover" alt="Ночной рейс"/>
-              <div class="photo-overlay absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-              <span class="photo-tag absolute bottom-2 left-2 bg-teal-400 text-black text-[9px] font-bold tracking-wide uppercase px-2 py-0.5 rounded">Ночной рейс</span>
-            </div>
-            <div class="photo-card relative rounded-xl overflow-hidden aspect-[4/3] cursor-pointer hover:scale-[1.04] duration-300">
-              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=300&q=70" class="w-full h-full object-cover" alt="Погрузка"/>
-              <div class="photo-overlay absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-              <span class="photo-tag absolute bottom-2 left-2 bg-teal-400 text-black text-[9px] font-bold tracking-wide uppercase px-2 py-0.5 rounded">Погрузка</span>
-            </div>
-          </div>
-        </div>
 
       </div>
     </main>
