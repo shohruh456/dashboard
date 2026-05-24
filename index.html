@@ -23,18 +23,13 @@
         }
     </style>
 </head>
-<body class="bg-gray-900 min-h-screen flex flex-col items-center justify-center p-6 text-white font-sans">
-
-    <div class="mb-8">
-        <button id="themeToggleBtn" class="flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-orange-500 to-pink-500 hover:opacity-90 active:scale-95 text-white font-medium rounded-xl shadow-lg transition-all duration-300">
-            <i id="btnIcon" class="fas fa-truck text-lg"></i>
-            <span id="btnText">Переключить тему</span>
-        </button>
-    </div>
-
-    <div id="dashboardCard" class="wave-bg w-full max-w-4xl rounded-3xl p-10 shadow-2xl border border-gray-800 flex flex-col md:flex-row justify-between items-center relative overflow-hidden min-h-[380px]">
+<body class="bg-gray-900 min-h-screen flex flex-col items-center p-6 text-white font-sans">
+    
+   
+    
+    <div id="dashboardCard" class="wave-bg w-[1100px] h-[450px] rounded-3xl p-10 shadow-2xl border border-gray-800 flex flex-col md:flex-row justify-between items-center relative overflow-hidden min-h-[380px] mt-[50px]">
         
-        <div class="z-10 flex flex-col justify-between h-full space-y-8 w-full md:w-1/2">
+        <div class="z-10 flex flex-col gap-8 h-full space-y-8 w-full md:w-1/2">
             
             <div>
                 <h1 class="text-4xl font-light tracking-widest text-gray-100 uppercase mb-1">Dashboard</h1>
@@ -63,10 +58,12 @@
                 </div>
                 
                 <div class="flex items-center space-x-4 group cursor-pointer">
-                    <div class="w-9 h-9 rounded-full flex items-center justify-center bg-gray-800 text-gray-400 group-hover:bg-gray-700 transition-all">
-                        <i class="fas fa-sliders-h text-sm"></i>
-                    </div>
-                    <span class="text-gray-400 group-hover:text-white transition-colors text-sm font-medium tracking-wide">Detalhes</span>
+                  <div class="mb-8">
+        <button id="themeToggleBtn" class="flex items-center gap-3 px-1 py-1 bg-gradient-to-r from-orange-500 to-pink-500 hover:opacity-90 active:scale-95 text-white font-medium rounded-xl shadow-lg transition-all duration-300">
+            <i id="btnIcon" class="fas fa-truck text-lg"></i>
+            <span id="btnText">Переключить тему</span>
+        </button>
+    </div>
                 </div>
                 
             </div>
